@@ -3,17 +3,8 @@ package com.pluralsight;
 
 
 public class Dice {
-    private int roll;
+    public int roll() {
+        return (int)(Math.random() * 6) + 1;
+    }
 
-    public Dice(int roll){
-        this.roll = roll;
-}
-
-
-}
-
-
-public int roll() {
-    int randomNumber = (int) (Math.random() * maxValue) + minValue;
-    return randomNumber;
 }
