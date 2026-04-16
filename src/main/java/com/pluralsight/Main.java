@@ -30,8 +30,8 @@ public class Main {
             }
         }
         System.out.println();
-        System.out.println("Count of Sum 2 " + twoCounter);
-        System.out.println("Count of Sum 4" + fourCounter);
+        System.out.println("Count of Sum 2: " + twoCounter);
+        System.out.println("Count of Sum 4: " + fourCounter);
         System.out.println("Count of Sum 6: " + sixCounter);
         System.out.println("Count of Sum 7: " + sevenCounter);
 
